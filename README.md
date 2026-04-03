@@ -1,4 +1,4 @@
-#  Tutorial 7 – FPS Controller & Scene System (Godot)
+#  Tutorial 7 – 3d (Godot)
 
 ##  Deskripsi
 
