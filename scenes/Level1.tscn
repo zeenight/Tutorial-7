@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://danq2divjq1nq"]
+
+[ext_resource type="PackedScene" uid="uid://dux70gsmw7ob" path="res://scenes/world_1.tscn" id="1_6ovph"]
+[ext_resource type="PackedScene" uid="uid://bjvvc4yryfqdq" path="res://scenes/Player.tscn" id="2_bwv4p"]
+
+[node name="Level 1" type="Node3D" unique_id=288824808]
+
+[node name="Player" parent="." unique_id=2130142529 instance=ExtResource("2_bwv4p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5693529, 0)
+
+[node name="World 1" parent="." unique_id=1091201231 instance=ExtResource("1_6ovph")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=785870699]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -39.144093, -11.535004)
+light_energy = 2.968
+omni_range = 123.12864
